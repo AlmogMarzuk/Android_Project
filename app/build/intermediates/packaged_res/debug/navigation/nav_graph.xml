@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.login.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_dashboard"
+            app:destination="@id/navigation_fid" />
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_register"
+            app:destination="@id/navigation_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.register.RegisterFragment"
+        android:label="register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_navigation_register_to_navigation_login"
+            app:destination="@id/navigation_login" />
+        <action
+            android:id="@+id/action_navigation_register_to_navigation_dashboard"
+            app:destination="@id/navigation_fid" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_post"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.add_post.AddPostFragment"
+        android:label="Add Post"
+        tools:layout="@layout/fragment_edit_post" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_fid"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.fid.FidFragment"
+        android:label="Fid"
+        tools:layout="@layout/fragment_fid" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_fid_to_navigation_edit_post"
+            app:destination="@id/navigation_edit_post" />
+        <action
+            android:id="@+id/action_navigation_fid_to_navigation_user_profile"
+            app:destination="@id/navigation_user_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_login"
+            app:destination="@id/navigation_login" />
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_edit_post"
+            app:destination="@id/navigation_edit_post" />
+        <argument
+            android:name="uid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_edit_post"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.edit_post.EditPostFragment"
+        android:label="Edit Post"
+        tools:layout="@layout/fragment_edit_post" >
+        <argument
+            android:name="basicPost"
+            app:argType="shoval.ashkenazi.shovalfinalproject.objects.Post"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_user_profile"
+        android:name="shoval.ashkenazi.shovalfinalproject.ui.user_profile.UserProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_user_profile" >
+        <argument
+            android:name="uid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="POST_SEARCH_TOPIC">
+        <item>Show By Title</item>
+        <item>Show By User Name</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="AndroidProject"/>
+    <string name="app_name">ShovalFinalProject</string>
+    <string name="default_web_client_id" translatable="false">445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com</string>
+    <string name="enter_your_city_name"/>
+    <string name="firebase_database_url" translatable="false">https://shoval-project-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">445498309884</string>
+    <string name="google_api_key" translatable="false">AIzaSyC4btzFqLtzn-M3TtcZHoP0JJ_ek0O6J3A</string>
+    <string name="google_app_id" translatable="false">1:445498309884:android:3d3dd0cc5fdc04cabbab79</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC4btzFqLtzn-M3TtcZHoP0JJ_ek0O6J3A</string>
+    <string name="google_storage_bucket" translatable="false">shoval-project.appspot.com</string>
+    <string name="project_id" translatable="false">shoval-project</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <style name="Theme.ShovalFinalProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

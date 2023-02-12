@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FBtnShow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/white_base"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="10dp">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3"
+                android:clickable="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_launcher_background"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="10"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:layout_constraintVertical_bias="0.9">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|top"
+                        android:text="Title"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibLike"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="right|bottom"
+            android:backgroundTintMode="src_over"
+            android:background="@drawable/heart"
+            android:textSize="16dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ibDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="left|bottom"
+            android:backgroundTintMode="src_over"
+            android:background="@drawable/edit_delete_btn"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ibEdit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="left|bottom"
+            android:backgroundTintMode="src_over"
+            android:background="@drawable/edit_upload_btn"
+            android:textSize="16dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            />
+    </FrameLayout>
+
+
+</FrameLayout>

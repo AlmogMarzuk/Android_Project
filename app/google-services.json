@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "445498309884",
+    "firebase_url": "https://shoval-project-default-rtdb.firebaseio.com",
+    "project_id": "shoval-project",
+    "storage_bucket": "shoval-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445498309884:android:3d3dd0cc5fdc04cabbab79",
+        "android_client_info": {
+          "package_name": "shoval.ashkenazi.shovalfinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4btzFqLtzn-M3TtcZHoP0JJ_ek0O6J3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445498309884:android:3f6a689889482934bbab79",
+        "android_client_info": {
+          "package_name": "uriya.madmoni.shovalnavigationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4btzFqLtzn-M3TtcZHoP0JJ_ek0O6J3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445498309884:android:8117d1033ec0e63abbab79",
+        "android_client_info": {
+          "package_name": "uriya.madmoni.shovalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4btzFqLtzn-M3TtcZHoP0JJ_ek0O6J3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445498309884-p00nio9rjvfdpgfdqn3je9img5i94u5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
